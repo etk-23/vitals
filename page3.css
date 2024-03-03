@@ -1,0 +1,23 @@
+h1 {
+    color: brown;
+}
+
+#speciality{
+    color: brown;
+    width: 100%;
+    height: 30px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+#check{
+    margin-top: 10px;
+    color:rgb(236, 221, 221);
+    background-color: brown;
+    height: 30px;
+    font-weight: bold;
+}
+h2{
+    margin-top: 70px;
+}
+
+
