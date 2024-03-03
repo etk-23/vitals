@@ -3,16 +3,17 @@
 <head>
     <title>HOSPITAL</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <!--<link rel='stylesheet' type='text/css' media='screen' href='main.css'>-->
+    <link rel='stylesheet' type='text/css' media='screen' href='spec.css'>
     <script src='sort.js'></script>
 </head>
 <body>
     <div class="hospital">
        
-        <label for="speciality">Speciality</label>
+        <h1 for="speciality">Speciality</h1>
+        <label for="specialization">Search by Specialization:</label>
             <select id="speciality" name="speciality">
                 <option value="oncology">oncology</option>
-                <option value="family medicine">Family medicine</option>
+                <option value="family medicine">family medicine</option>
                 <option value="neurology">neurology</option>
                 <option value="dermatology">dermatology</option>
                 <option value="cardiology">cardiology</option>
@@ -20,11 +21,11 @@
                 <option value="nephrology">nephrology</option>
                 <option value="ophthalmology">ophthalmology</option>
             </select>
-            <button onclick="sortOptions()">Sort Options</button>
+            <button id="check" onclick="sortOptions()">Check Hospitals</button>
             <p id="result"></p>
             <script src='sort.js'></script>
 
-            
+            <h2>Hospital Checklist</h2>
             <select>
             <option value="Sunrise Hospital, Ernakulam">Sunrise Hospital, Ernakulam</option>
             <option value="Corporative Hospital, Ernakulam">Corporative Hospital, Ernakulam</option>
