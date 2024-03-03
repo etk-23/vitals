@@ -13,22 +13,22 @@ function sortOptions() {
     }
 
     if (selectedSpecialty === "oncology") {
-        document.getElementById("result").innerHTML = "Ernakulam Medical Centre, Ernakulam <br> Medical Trust Hospital, Ernakulam <br> Aswini Hospital, Thrissur";
+        document.getElementById("result").innerHTML = "<br> Ernakulam Medical Centre, Ernakulam. <br><br> Medical Trust Hospital, Ernakulam. <br><br> Aswini Hospital, Thrissur.";
     } else if (selectedSpecialty === "cardiology") {
-        document.getElementById("result").innerHTML = "Sun Hospital, Thrissur<br>Ernakulam General Hospital, Ernakulam<br>Medical Trust Hospital, Ernakulam";
+        document.getElementById("result").innerHTML = "<br> Sun Hospital, Thrissur. <br><br>Ernakulam General Hospital, Ernakulam. <br><br> Medical Trust Hospital, Ernakulam.";
     } else if (selectedSpecialty === "family medicine") {
-        document.getElementById("result").innerHTML = "Ernakulam Medical Centre, Ernakulam<br>Medical Trust Hospital, Ernakulam<br>Elite Hospital, Thrissur<br>Aswini Hospital, Thrissur<br>Ernakulam General Hospital<br>WestFort Hospital, Thrissur<br>Mother Hospital, Thrissur<br>Corporative Hospital, Ernakulam";
+        document.getElementById("result").innerHTML = "<br> Ernakulam Medical Centre, Ernakulam. <br><br> Medical Trust Hospital, Ernakulam. <br><br> Elite Hospital, Thrissur. <br><br> Aswini Hospital, Thrissur. <br><br> Ernakulam General Hospital, Ernakulam. <br><br> WestFort Hospital, Thrissur. <br><br> Mother Hospital, Thrissur. <br><br> Corporative Hospital, Ernakulam.";
     } else if (selectedSpecialty === "neurology") {
-        document.getElementById("result").innerHTML = "Ernakulam Medical Centre, Ernakulam<br>Medical Trust Hospital, Ernakulam<br>Sunrise Hospital, Ernakulam<br>Corporative Hospital, Ernakulam<br>Jubilee Mission Medical College, Ernakulam";
+        document.getElementById("result").innerHTML = "<br> Ernakulam Medical Centre, Ernakulam. <br><br> Medical Trust Hospital, Ernakulam. <br><br> Sunrise Hospital, Ernakulam. <br><br> Corporative Hospital, Ernakulam. <br><br> Jubilee Mission Medical College, Ernakulam.";
     } else if (selectedSpecialty === "dermatology") {
-        document.getElementById("result").innerHTML = "Ernakulam Medical Centre, Ernakulam<br>Medical Trust Hospital, Ernakulam<br>Sunrise Hospital, Ernakulam<br>Jubilee Mission Medical College, Ernakulam<br>Amritha Hospital, Ernakulam";
+        document.getElementById("result").innerHTML = "<br> Ernakulam Medical Centre, Ernakulam. <br><br> Medical Trust Hospital, Ernakulam. <br><br> Sunrise Hospital, Ernakulam. <br><br> Jubilee Mission Medical College, Ernakulam. <br><br> Amritha Hospital, Ernakulam.";
     } else if (selectedSpecialty === "orthopedics") {
-        document.getElementById("result").innerHTML = "Medical Trust Hospital, Ernakulam<br>WestFort Hospital, Thrissur<br>Lisie Hospital, Ernakulam<br>Sunrise Hospital, Ernakulam<br>Sun Hospital, Ernakulam";
+        document.getElementById("result").innerHTML = "<br> Medical Trust Hospital, Ernakulam. <br><br> WestFort Hospital, Thrissur. <br><br> Lisie Hospital, Ernakulam. <br><br> Sunrise Hospital, Ernakulam. <br><br>Sun Hospital, Ernakulam.";
     } else if (selectedSpecialty === "nephrology") {
-        document.getElementById("result").innerHTML = "Elite Hospital, Thrissur<br>Lisie Hospital, Ernakulam<br>City Hospital, Ernakulam";
+        document.getElementById("result").innerHTML = "<br> Elite Hospital, Thrissur. <br><br> Lisie Hospital, Ernakulam. <br><br> City Hospital, Ernakulam.";
     } else if (selectedSpecialty === "neurology") {
-        document.getElementById("result").innerHTML = "Ernakulam General Hospital, Ernkulam<br>Sun Hospital, Thrissur<br>City Hospital, Ernakulam<br>Elite Hospital, Thrissur";
+        document.getElementById("result").innerHTML = "<br> Ernakulam General Hospital, Ernkulam. <br><br> Sun Hospital, Thrissur. <br><br> City Hospital, Ernakulam. <br><br> Elite Hospital, Thrissur.";
     } else if (selectedSpecialty === "ophthalmology") {
-        document.getElementById("result").innerHTML = "Ernakulam Medical Centre<br>Jubilee Mission Medical College, Thrissur<br>City Hospital, Ernakulam<br>WestFort Hospital, Thrissur";
+        document.getElementById("result").innerHTML = "<br> Ernakulam Medical Centre. <br><br> Jubilee Mission Medical College, Thrissur. <br><br> City Hospital, Ernakulam. <br><br> WestFort Hospital, Thrissur.";
     }
 }
